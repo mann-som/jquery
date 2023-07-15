@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>jQuery Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+  <h1>jQuery Project</h1>
+
+  <!-- Stopwatch -->
+  <h2>Stopwatch</h2>
+  <div id="stopwatch">
+    <span id="hours">00</span>:
+    <span id="minutes">00</span>:
+    <span id="seconds">00</span>
+  </div>
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
+  <button id="resetBtn">Reset</button>
+
+  <!-- BMI Calculator -->
+  <h2>BMI Calculator</h2>
+  <div id="bmiCalculator">
+    <label for="weight">Weight (kg):</label>
+    <input type="text" id="weight" placeholder="Enter weight">
+    <label for="height">Height (cm):</label>
+    <input type="text" id="height" placeholder="Enter height">
+    <button id="calculateBtn">Calculate BMI</button>
+    <div id="result"></div>
+  </div>
+
+  <!-- Random Quote Generator -->
+  <h2>Random Quote Generator</h2>
+  <div id="quoteGenerator">
+    <blockquote id="quote"></blockquote>
+    <button id="newQuoteBtn">New Quote</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
